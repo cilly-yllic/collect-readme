@@ -1,0 +1,34 @@
+{
+  "name": "collect-readme",
+  "version": "1.0.0",
+  "description": "collecting readme and index them",
+  "main": "index.js",
+  "scripts": {
+    "test": "ts-node ./test g",
+    "com": "ts-node ./command g"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cilly-yllic/collect-readme.git"
+  },
+  "keywords": [
+    "readme",
+    "README"
+  ],
+  "author": "cilly",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cilly-yllic/collect-readme/issues"
+  },
+  "homepage": "https://github.com/cilly-yllic/collect-readme#readme",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "commander": "^2.20.0"
+  },
+  "devDependencies": {
+    "@types/node": "12.0.0",
+    "conventional-changelog": "3.1.8",
+    "ts-node": "8.1.0",
+    "typescript": "3.4.5"
+  }
+}
